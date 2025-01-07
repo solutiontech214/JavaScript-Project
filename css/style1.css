@@ -53,3 +53,12 @@ body{
     margin:5vw;
     border-radius: 5px;
 }
+@media screen and (max-width: 600px) {
+    .passwordPanel{
+        width: 80vw;
+    }
+    .generator{
+        width: 80vw;
+    }
+    
+}
