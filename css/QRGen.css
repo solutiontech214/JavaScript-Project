@@ -69,3 +69,37 @@ width:60%;
 border: none;
 outline: none;
 }
+@media screen and (max-width: 768px){
+    .container{
+        width: 80vw;
+        margin-left: 10%;
+    }
+    .image{
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+        align-items: center;
+    }
+    button{
+        margin:20px;
+        padding:20px;
+        border-radius: 25px;
+        width:60%;
+        border: none;
+        outline: none;
+        font-size: 1.5rem;
+    }
+    #text{
+        width: 80%;
+        margin:20px;
+        padding:15px;
+        border-radius: 10px;
+        border:none;
+        outline: none;
+        font-weight: 900;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-variant: normal;
+        font-size: 1.5rem;
+    }
+    
+}
